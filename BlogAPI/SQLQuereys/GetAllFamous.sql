@@ -1,7 +1,7 @@
 ALTER PROCEDURE [dbo].[Blog_GetAllFamous]
 AS
 	SELECT
-	TOP 7
+	TOP 6
 	   t1.[BlogId]
 	  ,t1.[ApplicationUserId]
 	  ,t1.[Username]
