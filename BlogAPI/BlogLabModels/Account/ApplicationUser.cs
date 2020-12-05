@@ -4,7 +4,19 @@ using System.Text;
 
 namespace BlogLabModels.Account
 {
-    class ApplicationUser
+    public class ApplicationUser
     {
+
+        public int ApplicationUserId { get; set; }
+
+        public int Username { get; set; }
+
+        public int Fullname { get; set; }
+
+        public int Email { get; set; }
+
+        public string Token { get; set; }
+
+
     }
 }
