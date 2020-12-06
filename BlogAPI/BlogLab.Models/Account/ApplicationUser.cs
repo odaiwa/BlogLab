@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BlogLabModels.Account
+namespace BlogLab.Models.Account
 {
     public class ApplicationUser
     {

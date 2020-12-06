@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BlogLabModels.Photo
+namespace BlogLab.Models.Photo
 {
     public class Photo : PhotoCreate
     {
