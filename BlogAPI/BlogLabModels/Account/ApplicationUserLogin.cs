@@ -7,15 +7,16 @@ namespace BlogLabModels.Account
 {
     public class ApplicationUserLogin
     {
-        [Required(ErrorMessage ="Username is required")]
-        [MinLength(5,ErrorMessage ="Must be at least 5-20 characters")]
-        [MaxLength(20, ErrorMessage = "Must be at least 5-20 characters")]
-
-
+        [Required(ErrorMessage = MessagesForErrors.UsernameRequired)]
+        [MinLength(5, ErrorMessage = MessagesForErrors.UsernameLengthLimit)]
+        [MaxLength(20, ErrorMessage = MessagesForErrors.UsernameLengthLimit)]
         public string Username { get; set; }
-        [Required(ErrorMessage = "Password is required")]
-        [MinLength(10, ErrorMessage = "Must be at least 10-50 characters")]
-        [MaxLength(50, ErrorMessage = "Must be at least 10-50 characters")]
+
+
+
+        [Required(ErrorMessage = MessagesForErrors.PasswordRequired)]
+        [MinLength(10, ErrorMessage = MessagesForErrors.PasswordLengthLimit)]
+        [MaxLength(50, ErrorMessage = MessagesForErrors.PasswordLengthLimit)]
         public string Password { get; set; }
 
 
