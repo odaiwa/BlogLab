@@ -8,8 +8,8 @@ namespace BlogLabModels.Account
     public class ApplicationUserCreate : ApplicationUserLogin
     {
 
-        [MinLength(10, ErrorMessage = MessagesForErrors.CharactersLimit)]
-        [MaxLength(30, ErrorMessage = MessagesForErrors.CharactersLimit)]
+        [MinLength(10, ErrorMessage = MessagesForErrors.CharactersLimit10_30)]
+        [MaxLength(30, ErrorMessage = MessagesForErrors.CharactersLimit10_30)]
         public string Fullname { get; set; }
 
 
