@@ -7,6 +7,8 @@ using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using System.Linq;
+
 namespace BlogLab.Repository
 {
     public class PhotoRepository : IPhotoRepository
@@ -48,7 +50,7 @@ namespace BlogLab.Repository
                     );
             }
 
-            return photos.AsList();
+            return photos.ToList();
         }
 
         public async Task<Photo> GetAsync(int photoId)
