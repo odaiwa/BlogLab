@@ -17,6 +17,7 @@ namespace BlogLab.Repository
 
         private readonly IConfiguration _config;
 
+
         public AccountRepository(IConfiguration config)
         {
             _config = config;
