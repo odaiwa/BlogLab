@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1KMYJcbgpWWq2n3wGHIQ2K4oTa6vzcYTd2ayb07nj41/tnoLlBKeUGVrxdZUoEegaWGjYhPShTtDlO2gm8UAFg==",
+  "dgSpecHash": "h6gpGMB52cZ2yWgzeUP+4bAg1xWUah/L4hjITCnSlnSAThFYP3fZG1sLUODfR2HLtU40fW7PMcexTre+ReYFQw==",
   "success": true,
   "projectFilePath": "C:\\BlogUdemy\\BlogAPI\\BlogAPI\\BlogAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Odai\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
