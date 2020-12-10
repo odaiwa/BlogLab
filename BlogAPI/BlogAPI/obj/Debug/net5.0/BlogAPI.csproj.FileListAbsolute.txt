@@ -21,3 +21,7 @@ C:\BlogUdemy\BlogAPI\BlogAPI\obj\Debug\net5.0\BlogAPI.dll
 C:\BlogUdemy\BlogAPI\BlogAPI\obj\Debug\net5.0\ref\BlogAPI.dll
 C:\BlogUdemy\BlogAPI\BlogAPI\obj\Debug\net5.0\BlogAPI.pdb
 C:\BlogUdemy\BlogAPI\BlogAPI\obj\Debug\net5.0\BlogAPI.genruntimeconfig.cache
+C:\BlogUdemy\BlogAPI\BlogAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\BlogUdemy\BlogAPI\BlogAPI\bin\Debug\net5.0\BlogLab.Models.dll
+C:\BlogUdemy\BlogAPI\BlogAPI\bin\Debug\net5.0\BlogLab.Models.pdb
+C:\BlogUdemy\BlogAPI\BlogAPI\obj\Debug\net5.0\BlogAPI.csproj.CopyComplete
