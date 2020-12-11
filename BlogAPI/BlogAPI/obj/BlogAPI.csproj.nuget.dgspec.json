@@ -32,8 +32,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Identity\\BlogLab.Identity.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Identity\\BlogLab.Identity.csproj"
+              },
               "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj": {
                 "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj"
+              },
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj"
+              },
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Services\\BlogLab.Services.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Services\\BlogLab.Services.csproj"
               }
             }
           }
@@ -47,6 +56,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,6 +76,71 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BlogUdemy\\BlogAPI\\BlogLab.Identity\\BlogLab.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Identity\\BlogLab.Identity.csproj",
+        "projectName": "BlogLab.Identity",
+        "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Identity\\BlogLab.Identity.csproj",
+        "packagesPath": "C:\\Users\\Odai\\.nuget\\packages\\",
+        "outputPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Odai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj"
+              },
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -112,6 +192,174 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj",
+        "projectName": "BlogLab.Repository",
+        "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\BlogLab.Repository.csproj",
+        "packagesPath": "C:\\Users\\Odai\\.nuget\\packages\\",
+        "outputPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Odai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\BlogUdemy\\BlogAPI\\BlogLab.Services\\BlogLab.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Services\\BlogLab.Services.csproj",
+        "projectName": "BlogLab.Services",
+        "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Services\\BlogLab.Services.csproj",
+        "packagesPath": "C:\\Users\\Odai\\.nuget\\packages\\",
+        "outputPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Odai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj": {
+                "projectPath": "C:\\BlogUdemy\\BlogAPI\\BlogLab.Models\\BlogLab.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
